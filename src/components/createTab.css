@@ -1,0 +1,70 @@
+.container {
+  width: 600px;
+
+  margin: 10px;
+}
+
+.content {
+  display: grid;
+
+  border: 2px solid #ADADAD;
+  padding: 10px;
+
+  grid-template-columns: 1fr 5fr;
+}
+
+.label {
+  grid-column: 1;
+  padding-top: 10px;
+}
+
+.field {
+  grid-column: 2 / 3;
+  width: 100%;
+}
+
+.field > input, .field > select {
+  border: 2px solid #ADADAD;
+
+  padding: 5px;
+  margin: 5px;
+
+  box-sizing: border-box;
+
+  width: 100%;
+}
+
+.conditionFields {
+  grid-column: 2 / 3;
+  width: 100%;
+}
+
+.conditionFields select {
+  border: 2px solid #ADADAD;
+
+  padding: 5px;
+  margin: 5px;
+
+  box-sizing: border-box;
+
+  width: 60%;
+}
+
+.conditionFields select ~ * {
+  border: 2px solid #ADADAD;
+
+  padding: 5px;
+  margin: 5px;
+
+  box-sizing: border-box;
+
+  width: 30%;
+}
+
+.children {
+  padding-left: 30px;
+}
+
+.actions {
+  float: right;
+}

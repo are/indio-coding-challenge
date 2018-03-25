@@ -1,0 +1,49 @@
+body {
+  font-size: 16px;
+  font-family: Arial;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 5px;
+  background: #D8D8D8;
+
+  font-family: 16px;
+
+  border: 2px solid #ADADAD;
+  font-family: Arial;
+
+  margin: 5px;
+}
+
+.container {
+  padding: 30px 60px;
+}
+
+.divider {
+  border: 0;
+  border-bottom: 2px solid #ADADAD;
+
+  margin-top: 0
+}
+
+.tabButton {
+  background: white;
+
+  border: 2px solid #ADADAD;
+  border-bottom: 0;
+
+  margin: 0;
+  padding: 5px 10px;
+
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.active {
+  background: #D8D8D8;
+}
